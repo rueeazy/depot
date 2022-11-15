@@ -6,6 +6,19 @@ one:
   email: dave@example.org
   pay_type: Check
 
+another_one:
+  name: Dave Thomas
+  address: 124 Any St.
+  email: dave@example.ord
+  pay_type: Check
+  created_at: <%= 2.days.ago %>
+
+other_customer:
+  name: Martha Stewart
+  address: 456 Somewhere Ln
+  email: martha@mail.com
+  pay_type: check
+
 two:
   name: MyString
   address: MyText
